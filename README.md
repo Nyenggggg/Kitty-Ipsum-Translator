@@ -1,28 +1,46 @@
 # 🐱 Kitty Ipsum Translator
 
 ## 📌 Description
-A Bash script that translates input text into a fun "Kitty Ipsum" language.
+A Bash script that converts user input into a fun and playful "Kitty Ipsum" language.
+
+Inspired by cat-style translators that turn normal text into cute, cat-like expressions :contentReference[oaicite:0]{index=0}.
 
 ## 🛠️ Technologies Used
-- Bash
+- Bash (Shell Scripting)
 
 ## ▶️ How to Run
 
-1. Make the script executable:
+1. Clone the repository:
+```bash
+git clone https://github.com/Nyenggggg/Kitty-Ipsum-Translator.git
+```
+
+2. Go to the project folder:
+```bash
+cd Kitty-Ipsum-Translator
+```
+
+3. Make the script executable:
 ```bash
 chmod +x kitty_ipsum.sh
 ```
 
-2. Run the script:
+4. Run the script:
 ```bash
 ./kitty_ipsum.sh
 ```
 
 ## 💡 Features
-- Translates words into cat-themed language
-- Simple CLI interaction
+- Converts text into cat-themed words
+- Simple command-line interface
+- Interactive user input
 
 ## 📚 What I Learned
 - Bash scripting basics
-- User input handling
-- String manipulation
+- Handling user input
+- String manipulation in shell scripts
+
+## 🚀 Future Improvements
+- Add more translation rules
+- Improve randomness
+- Convert into a web-based app
