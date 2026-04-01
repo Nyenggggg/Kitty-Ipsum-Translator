@@ -44,3 +44,6 @@ chmod +x kitty_ipsum.sh
 - Add more translation rules
 - Improve randomness
 - Convert into a web-based app
+
+## 🎯 Purpose
+This project was built as part of my learning journey in Bash scripting to practice string manipulation and user input handling.
