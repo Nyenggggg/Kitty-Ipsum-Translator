@@ -75,12 +75,6 @@ This project helped reinforce:
 
 ---
 
-## 📸 Preview
-
-*(Optional: Add a screenshot of your terminal output)*
-
----
-
 ## ✨ Author
 
 **Rienniel Lopez**
