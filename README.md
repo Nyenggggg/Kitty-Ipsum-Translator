@@ -1,49 +1,98 @@
-# 🐱 Kitty Ipsum Translator
+# 🐱➡️🐶 Kitty Ipsum Translator (Shell Script)
 
-## 📌 Description
-A Bash script that converts user input into a fun and playful "Kitty Ipsum" language.
+A simple **Bash script** that converts text from **Kitty Ipsum** into **Doggy Ipsum** using command-line text processing.
 
-Inspired by cat-style translators that turn normal text into cute, cat-like expressions :contentReference[oaicite:0]{index=0}.
+This project was built as part of the freeCodeCamp curriculum to practice shell scripting, text manipulation, and basic automation.
 
-## 🛠️ Technologies Used
-- Bash (Shell Scripting)
+---
 
-## ▶️ How to Run
+## 🚀 Features
 
-1. Clone the repository:
-```bash
+* 🔄 Translates Kitty Ipsum text into Doggy Ipsum
+* ⚡ Fast and lightweight command-line execution
+* 🧠 Beginner-friendly Bash scripting logic
+* 📄 Works with `.txt` files
+
+---
+
+## 📂 Project Structure
+
+```id="2q9z7v"
+Kitty-Ipsum-Translator/
+│── translate.sh
+│── script.sh
+│── kitty_ipsum.txt
+│── doggy_ipsum.txt
+```
+
+---
+
+## ⚙️ How It Works
+
+1. Reads text from `kitty_ipsum.txt`
+2. Uses shell commands (e.g., `sed`, `tr`, or similar tools) to replace cat-related words
+3. Converts them into dog-related equivalents
+4. Saves the output into `doggy_ipsum.txt`
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+
+```id="k7m2qp"
 git clone https://github.com/Nyenggggg/Kitty-Ipsum-Translator.git
 ```
 
-2. Go to the project folder:
-```bash
+### 2. Navigate to the project folder
+
+```id="y3nx8c"
 cd Kitty-Ipsum-Translator
 ```
 
-3. Make the script executable:
-```bash
-chmod +x kitty_ipsum.sh
+### 3. Make the script executable
+
+```id="x8w1zr"
+chmod +x translate.sh
 ```
 
-4. Run the script:
-```bash
-./kitty_ipsum.sh
+### 4. Run the script
+
+```id="p4c7vm"
+./translate.sh
 ```
 
-## 💡 Features
-- Converts text into cat-themed words
-- Simple command-line interface
-- Interactive user input
+---
 
-## 📚 What I Learned
-- Bash scripting basics
-- Handling user input
-- String manipulation in shell scripts
+## 🎯 Learning Objectives
 
-## 🚀 Future Improvements
-- Add more translation rules
-- Improve randomness
-- Convert into a web-based app
+This project helped reinforce:
 
-## 🎯 Purpose
-This project was built as part of my learning journey in Bash scripting to practice string manipulation and user input handling.
+* Bash scripting fundamentals
+* Command-line text processing
+* File input/output handling
+* Automation using shell scripts
+
+---
+
+## 📸 Preview
+
+*(Optional: Add a screenshot of your terminal output)*
+
+---
+
+## ✨ Author
+
+**Rienniel Lopez**
+GitHub: https://github.com/Nyenggggg
+
+---
+
+## 💡 Future Improvements
+
+* Add support for user input instead of fixed files
+* Expand vocabulary for better translation
+* Add error handling (missing files, invalid input)
+* Create a menu-based CLI tool
+
+---
